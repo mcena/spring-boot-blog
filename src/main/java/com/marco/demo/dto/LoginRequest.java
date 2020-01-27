@@ -1,7 +1,7 @@
 package com.marco.demo.dto;
 
 
-
+//GETTERS AND SETTERS FOR LOGIN
 
 public class LoginRequest {
 	

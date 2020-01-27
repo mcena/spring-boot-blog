@@ -3,6 +3,7 @@ package com.marco.demo.controller;
 import java.util.List;
 
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,8 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.marco.demo.dto.PostDto;
 import com.marco.demo.service.PostService;
 
+
+//CONTROLLER FOR api/posts mapping (controller for blog posts)
+
 @RestController
-@RequestMapping("api/posts")
+@RequestMapping("/api/posts")
 public class PostController {
 	
 	@Autowired

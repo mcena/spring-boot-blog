@@ -1,8 +1,11 @@
 package com.marco.demo.dto;
 
+
+//GETTERS AND SETTERS FOR BLOG POSTS
+
 public class PostDto {
 	
-	private long id;
+	private Long id;
 	private String content;
 	private String title;
 	private String username;

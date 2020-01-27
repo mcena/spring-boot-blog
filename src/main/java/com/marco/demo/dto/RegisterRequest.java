@@ -1,6 +1,8 @@
 package com.marco.demo.dto;
 
 
+//GETTERS AND SETTERS FOR REGISTERING ACCOUNTS
+
 public class RegisterRequest {
 	private String username;
     private String email;

@@ -1,6 +1,11 @@
 package com.marco.demo.model;
 
+
+//MODEL FOR BLOG POSTS (used MySQL Workbench)
+//table post
+
 import java.time.Instant;
+
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

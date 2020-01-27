@@ -16,6 +16,8 @@ import com.marco.demo.exception.PostNotFoundException;
 import com.marco.demo.model.Post;
 import com.marco.demo.repository.PostRepository;
 
+//POST MANAGER (handles the creation of posts)
+
 @Service
 public class PostService {
 	
@@ -49,8 +51,8 @@ public class PostService {
 	private Post mapFromDtoToPost(PostDto postDto)
 	{
 		Post post = new Post();
-		post.setTitle(post.getTitle());
-		post.setContent(post.getContent());
+		post.setTitle(postDto.getTitle());
+		post.setContent(postDto.getContent());
 		User loggedInUser = authService.getCurrentUser().orElseThrow(() -> new IllegalArgumentException("User not found"));
 		post.setCreatedOn(Instant.now());
 		post.setUsername(loggedInUser.getUsername());

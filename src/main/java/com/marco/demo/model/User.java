@@ -1,5 +1,9 @@
 package com.marco.demo.model;
 
+
+//MODEL FOR USERS (used MySQL Workbench)
+//table user
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
