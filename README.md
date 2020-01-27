@@ -5,7 +5,7 @@ A simple web application blog using spring boot
 - Spring Boot
 - Spring MVC
 - Spring Security
-- MySQL as database platform
+- MySQL
 
 ## Frontend
 - Angular
