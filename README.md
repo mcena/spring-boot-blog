@@ -10,3 +10,6 @@ A simple web application blog using spring boot
 ## Frontend
 - Angular
 - Bootstrap
+
+## Frontend repository link
+https://github.com/mcena/spring-boot-blog-frontend
